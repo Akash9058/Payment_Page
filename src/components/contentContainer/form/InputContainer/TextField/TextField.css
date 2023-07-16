@@ -1,0 +1,80 @@
+.textField {
+  width: Fill (501px);
+  height: Hug (50px);
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid;
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  color: #3C4852;
+}
+
+.textField .left {
+  display: flex;
+  align-items: center;
+}
+
+.textField .left input {
+  width: 30px;
+  height: 30px;
+}
+
+.textField .left label {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+
+}
+
+.textField .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.textField .right .top {
+  display: flex;
+  align-items: center;
+}
+.textField .right .top span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  margin: 7px;
+}
+
+.textField .right .top .price {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+.textField .right .bottom {
+  display: flex;
+  align-items: center;
+}
+
+.textField .right .bottom .rate {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
+
+.textField .right .bottom span {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  color: #bebebe;
+  margin: 6px;
+}
